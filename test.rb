@@ -14,6 +14,9 @@ if ARGV[0] == "input"
     File.open("stockpile.txt", "r") do |f|
         puts f.read
     end
+# clear mechanism
+elsif ARGV[0] == "clear"
+
 else
     print "usage: ruby test.rb [option]\n";
 end
