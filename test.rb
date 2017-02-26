@@ -1,4 +1,4 @@
-
+# input mechanism
 if ARGV[0] == "input"
     # input stockpiled games or books and register them
     print "Please input your games or books:";
